@@ -1,0 +1,209 @@
+body{
+  margin: 0;
+  font-family: 'Fira Sans', sans-serif;
+  background-color: #f0f0f0;
+}
+.navbar a{
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  display: inline-block;
+  float:right;
+}
+.backgroun-img {
+  margin: 0;
+  width: 100%;
+  height: 800px;
+   background-image: url(../images/newimg.jpg);
+   background-repeat: no-repeat;
+background-size: 100% 800px;
+position: relative;
+   box-shadow: 0px 0px 25px grey;
+
+}
+.positionfixed{
+  width: 100%;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+  background-color: rgba(0,0,0,0.5);
+}
+.backgroun-img h1{
+  margin: 0;
+}
+#loginbutton:hover{
+  background-color: #222831;
+  color:#ffffff;
+   box-shadow: 0px 0px 25px white;
+}
+#loginbutton{
+display: inline-block;
+margin: 30px;
+float: right;
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 20px;
+  width: 100px;
+  height: 40px;
+  border-radius: 20px;
+  border-style: none;
+  box-decoration-break: none;
+}
+.navbar{
+  width: 100%;
+  position: relative;
+}
+
+.navbar h1{
+
+  display: inline-block;
+  margin: 10px;
+  color: white;
+  border: 5px;
+  position: relative;
+  float: right;
+    font-family: 'Fira Sans', sans-serif;
+ font-size: 17px;
+ top:30px;
+}
+.navbar img{
+  display: inline-block;
+  width:80px;
+  height: 80px;
+  position: relative;
+  left: 50px;
+  top:7px;
+}
+.introducing{
+  width: 300px;
+  position: relative;
+  left: 40%;
+  top:20%;
+  display: block;
+
+}
+.introducing h1{
+  font-size: 56px;
+  color: white;
+ position: relative;
+ display: inline-block;
+ bottom: 35px;
+ margin: 5px;
+  font-family: 'Fira Sans', sans-serif;
+}
+.introducing img{
+  width: 100px;
+  height: 100px;
+
+  display: inline-block;
+}
+.introducing button:hover{
+
+       background-color: black;
+       color: white;
+          box-shadow: 0px 0px 25px white;
+  }
+.introducing button{
+  position: relative;
+  display: block;
+  height: 40px;
+  width: 40px;
+  margin: 20px;
+  left:120px;
+  border-radius: 100px;
+  border-style: none;
+  background-color: #ececec;
+}
+.buttonnav h2{
+  font-size: 20px;
+  position: relative;
+border: 0;
+margin: 0;
+top:2px;
+}
+.webcam{
+  align-items: center;
+  text-align: center;
+  width: 300px;
+  height: 300px;
+  background-color: grey;
+  margin: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#videoElement{
+  margin: 0;
+  border: 0;
+  top:0;
+}
+.midtext{
+  position: relative;
+  text-align: center;
+  display: block;
+    font-family: 'Fira Sans', sans-serif;
+
+    color:  black;
+    margin: 20px;
+    margin-top: 90px;
+    position: relative;
+    font-size: 35px;
+}
+.featurcontainer{
+position: relative;
+margin-left: auto;
+margin-right: auto;
+align-items: center;
+text-align: center;
+}
+.a{
+  width: 170px;
+  height: 170px;
+  background: rgb(243,0,255);
+  background: linear-gradient(13deg, rgba(243,0,255,1) 13%, rgba(117,153,205,1) 60%);
+  display: inline-block;
+  border-radius: 100px;
+  position: relative;
+  margin: 30px;
+  padding: 20px;
+  transition: 0.5s;
+  -webkit-box-shadow: 10px 7px 63px -7px rgba(0,0,0,0.58);
+  -moz-box-shadow: 10px 7px 63px -7px rgba(0,0,0,0.58);
+  box-shadow: 10px 7px 63px -7px rgba(0,0,0,0.58);
+}
+.b:hover{
+  transform: scale(1.1);
+  -webkit-box-shadow: 4px 21px 74px 12px rgba(0,0,0,0.58);
+-moz-box-shadow: 4px 21px 74px 12px rgba(0,0,0,0.58);
+box-shadow: 4px 21px 74px 12px rgba(0,0,0,0.58);
+}
+.a:hover{
+  transform: scale(1.1);
+  -webkit-box-shadow: 4px 21px 74px 12px rgba(0,0,0,0.58);
+-moz-box-shadow: 4px 21px 74px 12px rgba(0,0,0,0.58);
+box-shadow: 4px 21px 74px 12px rgba(0,0,0,0.58);}
+.b{
+  width: 170px;
+  transition: 0.5s;
+  height: 170px;
+  background: rgb(243,0,255);
+  background: linear-gradient(13deg, rgba(243,0,255,1) 13%, rgba(117,153,205,1) 60%);
+  display: inline-block;
+  position: relative;
+  border-radius: 100px;
+  margin: 30px;
+  padding: 20px;
+    font-family: 'Fira Sans', sans-serif;
+    -webkit-box-shadow: 10px 7px 63px -7px rgba(0,0,0,0.58);
+  -moz-box-shadow: 10px 7px 63px -7px rgba(0,0,0,0.58);
+  box-shadow: 10px 7px 63px -7px rgba(0,0,0,0.58);
+}
+.featurcontainer h4{
+    margin: 0;
+      font-family: 'Fira Sans', sans-serif;
+    padding: 0;
+color: white;
+    font-size: 15px;
+  position: relative;
+  top:80px;
+  }

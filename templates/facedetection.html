@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="{{url_for('static',filename='css/emotion.css')}}">
+    <title></title>
+  </head>
+  <body>
+    <h1 class="title">Instructions</h1>
+    <div class="newbt">
+        <button class="newbtn"type="button" name="button" onclick="displayfunc()">+</button>
+    </div>
+
+    <div class="instructions" id="instructions">
+      <h1>*click on Try-me to enable camera</h1>
+      <h1>*then click on 'Snap' to capture</h1>
+      <h1>*and finally click 'M' to play you Song</h1>
+    </div>
+<button id="tryme" onclick="showcam()" name="button">Try-Me</button>
+<div id="webcam">
+      <video autoplay="true" id="videoElement" ></video>
+</div>
+<canvas id="canvas" width="300" height="300"></canvas>
+<button id="snap" name="button" class="snapbtn" onclick="snapimg()" >Snap</button>
+<button id="M" name="button" onclick="sendserver()">M</button>
+    <div class="outer" id="outer">
+    <div class="">
+      <h1>happy</h1>
+        <div class="sameclass" id="width1"><h2 class="percent" id="same1"></h2></div>
+    </div>
+    <div class="">
+      <h1>sad</h1>
+        <div class="sameclass"  id="width2"><h2 class="percent" id="same2"></h2></div>
+    </div>
+    <div class="">
+      <h1>surprice</h1>
+        <div class="sameclass"  id="width3"><h2 class="percent"  id="same3"></h2></div>
+    </div>
+    <div class="">
+      <h1>angry</h1>
+        <div class="sameclass"  id="width4"><h2 class="percent"  id="same4"></h2></div>
+    </div>
+    <div class="">
+      <h1>neutral</h1>
+          <div class="sameclass"  id="width5"><h2 class="percent"id="same5"></h2></div>
+    </div>
+    <div class="">
+      <h1>disguist</h1>
+        <div class="sameclass"   id="width6"><h2 class="percent" id="same6"></h2></div>
+    </div>
+  </body>
+  <script type="text/javascript" src="{{url_for('static',filename='feature.js')}}">
+
+  </script>
+</html>
